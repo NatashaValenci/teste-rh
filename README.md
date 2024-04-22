@@ -4,6 +4,9 @@ json-server --watch db.json
 # COMANDO PARA EXECUTAR ANGUALR 
 npm start
 
+
+# ESTRUTURA DE REPOSITORIOS
+
 /src
 |-- /app
 |   |-- /components

@@ -1,0 +1,18 @@
+<form (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <input matInput placeholder="Nome" [(ngModel)]="name" name="name" required>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="E-mail" [(ngModel)]="email" name="email" required>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Senha" [(ngModel)]="senha" name="senha" type="password" required>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Repita a senha" [(ngModel)]="confirmacaoSenha" name="confirmacaoSenha"
+            type="password" required>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Registrar</button>
+    <button mat-button color="primary" (click)="voltar()">Voltar</button>
+
+</form>

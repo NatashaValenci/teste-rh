@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+<button mat-raised-button color="primary"  *ngIf="visualize" (click)="pageForm()">novo colaborador</button>
+<div *ngIf="visualize">
+    <app-list (dataEdit)="dataEdit($event)"></app-list>
+</div>
+<button mat-raised-button *ngIf="!visualize" (click)="visualizeForm()">voltar</button>
+
+<app-form [editform]="colaborador" *ngIf="!visualize"></app-form>

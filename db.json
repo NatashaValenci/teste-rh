@@ -1,0 +1,61 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "name": "adm",
+      "email": "adm@adm.com",
+      "password": "123"
+    },
+    {
+      "id": "1",
+      "name": "aaa",
+      "email": "aaa@adm.com",
+      "password": "123"
+    },
+    {
+      "id": "370b",
+      "email": "tash@adm.com.br",
+      "password": "123"
+    },
+    {
+      "id": "716a",
+      "email": "n.pereira.domingues@avanade.com",
+      "password": "aaa"
+    },
+    {
+      "id": "4cc1",
+      "email": "natasha@teste.com",
+      "password": "123",
+      "name": "Natasha"
+    },
+    {
+      "id": "53dd",
+      "email": "teste@teste.com",
+      "password": "123",
+      "name": "Natasha teste"
+    }
+  ],
+  "colaboradores": [
+    {
+      "email": "Joao@email.com",
+      "telefone": "2222222",
+      "nome": "Joao",
+      "cpf": "123.123.123-12",
+      "id": "1"
+    },
+    {
+      "id": "743f",
+      "email": "teste@adm.com.br",
+      "telefone": "11975723032",
+      "nome": "natasha",
+      "cpf": "231111111"
+    },
+    {
+      "id": "4879",
+      "email": "teste@adm.com.br",
+      "telefone": "11975723032",
+      "nome": "teste nome ",
+      "cpf": "222.333.444-00"
+    }
+  ]
+}

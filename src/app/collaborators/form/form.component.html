@@ -1,0 +1,15 @@
+<form [formGroup]="cadastroForm" (ngSubmit)="salvar()">
+    <mat-form-field>
+      <input matInput  formControlName="nome" placeholder="Nome"  name="nome" required>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput formControlName="cpf" placeholder="CPF" name="cpf" required>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput  formControlName="telefone" placeholder="Telefone" name="telefone" required>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput  formControlName="email" placeholder="email" name="email" required>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Salvar</button>
+  </form>

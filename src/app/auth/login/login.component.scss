@@ -1,0 +1,29 @@
+  // Estilos para um mat-card dentro do componente
+
+  mat-card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .links {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .links a {
+    color: #1565c0;
+    text-decoration: none;
+  }
+  
